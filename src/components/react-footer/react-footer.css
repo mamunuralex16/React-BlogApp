@@ -1,0 +1,91 @@
+.main-footer {
+    color: rgb(241, 7, 7);
+    font-family: "Varela Round", sans-serif;
+    background-color: #110e0e;
+    font-weight: 200;
+    float: left;
+    padding-top: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+.footer-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-col {
+   padding: 0 80px;
+   margin-left: 70px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #abadb1;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-weight: 400;
+	position: relative;
+}
+.hero_button{
+	display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1.5px solid rgb(179, 54, 71);
+    padding: 0 8px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+/*
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #b63c5b;
+	height: 2px;
+	box-sizing: border-box;
+	width: 80px;
+}*/
+.footer-col ul li:not(:last-child){
+	margin-bottom: 5px;
+}
+.footer-col ul li a{
+	font-size: 15px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 200;
+	color: #918d8d;
+	display: flex;
+	transition: all 0.3s ease;
+	padding-top: 2px;
+}
+.footer-col ul li a:hover{
+	color: #ce396b;
+	padding-left: 8px;
+}
+.ul{
+	list-style: none;
+    padding-left: 2px;
+}
+.copy {
+    text-align: center;
+    padding-bottom: 10px;
+	color: #868686;
+	font-size: small;
+}
+
+.FooterImg {
+    margin: 0px 5px;
+  }
+.ul img {
+    width: 130px;
+    height: 60px;
+    float: left;
+    padding-left: 10px;
+	margin-left: 2px;
+  }
+    
+    

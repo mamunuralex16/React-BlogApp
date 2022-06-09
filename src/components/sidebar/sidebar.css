@@ -1,0 +1,114 @@
+.sidebar {
+  flex: 3;
+  display: flex;
+  height: fit-content;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+  margin-left: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #111c3b;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: left;
+  text-align: justify;
+}
+
+.sidebarTitle {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 65%;
+  border-top: solid 1px #a7a4a4;
+  border-bottom: solid 1px #a7a4a4;
+  font-family: "Varela Round", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 15px;
+  color: #fcf8f8;
+  font-weight: 600;
+}
+
+.sidebarTitleS {
+  margin: 10px;
+  padding: 5px;
+  width: 60%;
+  border-top: solid 1px #a7a4a4;
+  border-bottom: solid 1px #a7a4a4;
+  font-family: "Varela Round", sans-serif;
+  font-size: 15px;
+  text-transform: capitalize;
+  line-height: 10px;
+  color: #a39fa1;
+  font-weight: 600;
+}
+
+.postCat {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-weight: 350;
+  font-size: 11px;
+  color: #c03d0a;
+  line-height: 19px;
+  margin-top: 15px;
+  margin-right: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+/* Fake image */
+.fakeimg {
+  background-color: rgb(250, 249, 249);
+  color: #0e1eb3;
+  width: 250px;
+  padding-top: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 10px;
+  margin-top: 12px;
+}
+
+/* Social Media Button*/
+.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 70%;
+}
+.fa:hover {
+  opacity: 0.5;
+  color: #97a0a0;
+}
+
+.fa-github {
+  background: #ebf0f1;
+  color: rgb(44, 42, 42);
+  }
+.fa-facebook {
+background: #1a4fc4;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+
+.fa-linkedin {
+background: #027ea3;
+color: white;
+}
+
+
+.fa-instagram {
+background: #b90f78;
+color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    padding: 0;
+  }
+}

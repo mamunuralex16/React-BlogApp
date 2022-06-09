@@ -1,0 +1,17 @@
+{
+    "debug.allowBreakpointsEverywhere": true,
+    "files.exclude": {
+        "**/.vscode": true,
+        "compile_commands.json": true,
+        "*.hrccproj": true,
+        "*.sln": true,
+        "*.suo": true
+    },
+    "files.autoGuessEncoding": true,
+    "cSpell.words": [
+        "leftcolumn",
+        "pinterest",
+        "rightcolumn",
+        "topbar"
+    ]
+}

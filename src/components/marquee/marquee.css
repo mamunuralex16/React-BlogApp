@@ -1,0 +1,14 @@
+.marquee {
+    margin-top: 10px;
+    background-color: rgb(54, 53, 53);
+    margin-left: 35px;
+    margin-right: 20px;
+    border-radius: 7px;
+  }
+  
+.title {
+    color: rgb(241, 235, 235);
+    font-size: 15px;
+    padding-top: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
